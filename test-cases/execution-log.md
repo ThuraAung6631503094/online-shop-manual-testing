@@ -31,3 +31,14 @@ TC-001 was executed. TC-002–TC-025 have not been attempted and await secure br
 | TC-023 | Not run | Not attempted; authenticated execution pending. | — |
 | TC-024 | Not run | Not attempted; authenticated execution pending. | — |
 | TC-025 | Not run | Not attempted; authenticated execution pending. | — |
+
+
+## R02 — Manual testing by Thura Aung
+
+Test date: 2026-09-12
+Environment: Chrome on Windows
+Account: standard_user
+
+| Case | Status | Actual result | Evidence |
+| --- | --- | --- | --- |
+| TC-002 | Pass | Entered the standard demo credentials and clicked Login. The Products page opened and product cards were visible. | [Screenshot](../evidence/TC-002-R02-login-success.png) |
