@@ -42,3 +42,4 @@ Account: standard_user
 | Case | Status | Actual result | Evidence |
 | --- | --- | --- | --- |
 | TC-002 | Pass | Entered the standard demo credentials and clicked Login. The Products page opened and product cards were visible. | [Screenshot](../evidence/TC-002-R02-login-success.png) |
+| TC-012 | Pass | Added one Sauce Labs Backpack. The cart displayed the correct product, quantity 1, price $29.99, and cart badge 1. | [Cart screenshot](../evidence/TC-012-R02-add-to-cart.png) |
