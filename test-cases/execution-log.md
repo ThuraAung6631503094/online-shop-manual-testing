@@ -69,3 +69,6 @@ Date: 2026-10-10
 | TC-018 | Pass | Leaving first name empty displayed first-name validation and prevented advancing from the checkout information page. | [Screenshot](../evidence/TC-018-R03-first-name-required.png) |
 | TC-019 | Pass | Leaving last name empty displayed last-name validation and prevented advancing from the checkout information page. | [Screenshot](../evidence/TC-019-R03-last-name-required.png) |
 | TC-020 | Pass | Leaving postal code empty displayed postal-code validation and prevented advancing from the checkout information page. | [Screenshot](../evidence/TC-020-R03-postal-code-required.png) |
+| TC-022 | Pass | Backpack (1 × $29.99) and Bike Light (1 × $9.99) totalled $39.98, matching the subtotal. Adding displayed tax of $3.20 gave $43.18, matching the total. | [Screenshot](../evidence/TC-022-R03-overview-totals.png) |
+| TC-023 | Pass | Cancel closed the checkout information page without order confirmation. The Backpack remained in the cart. | [Screenshot](../evidence/TC-023-R03-cancel-checkout.png) |
+| TC-025 | Pass | Logout returned to the login page. Direct navigation to /inventory.html was blocked with a login-required error. Error text appeared partly clipped; visual observation remains open. | [After logout](../evidence/TC-025-R03-after-logout.png), [Access blocked](../evidence/TC-025-R03-protected-page-blocked.png) |
