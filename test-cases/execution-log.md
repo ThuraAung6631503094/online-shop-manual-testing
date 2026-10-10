@@ -61,3 +61,11 @@ Date: 2026-10-10
 | TC-009 | Pass | Selected Price (low to high) and verified all product prices were ordered from smallest to largest. | [price-low-to-high](../evidence/TC-009-R03-price-low-to-high.png) |
 | TC-010 | Pass | Selected Price (high to low) and verified all product prices were ordered from largest to smallest. | [price-high-to-low](../evidence/TC-010-R03-price-high-to-low.png) |
 | TC-011 | Pass | Selected Name (A to Z) and verified all product names were in alphabetical order. | [name-a-to-z](../evidence/TC-011-R03-name-a-to-z.png) |
+| TC-013 | Pass | Backpack and Bike Light each appeared once in the cart, with prices matching the catalogue. Cart badge showed 2. | [Screenshot](../evidence/TC-013-R03-two-products.png) |
+| TC-014 | Pass | Removed the Backpack. Only the Bike Light remained, and the cart badge showed 1. | [Screenshot](../evidence/TC-014-R03-remove-one-product.png) |
+| TC-015 | Pass | Removed the final product. No product rows remained and no positive item count was shown. | [Screenshot](../evidence/TC-015-R03-empty-cart.png) |
+| TC-016 | Pass | After refreshing the cart page, the Backpack remained once with the same price. | [Before refresh](../evidence/TC-016-R03-before-refresh.png), [After refresh](../evidence/TC-016-R03-after-refresh.png) |
+| TC-017 | Pass | Continue Shopping opened the Products page. Reopening the cart showed the Backpack still present once. | [Products page](../evidence/TC-017-R03-return-to-products.png), [Cart](../evidence/TC-017-R03-cart-preserved.png) |
+| TC-018 | Pass | Leaving first name empty displayed first-name validation and prevented advancing from the checkout information page. | [Screenshot](../evidence/TC-018-R03-first-name-required.png) |
+| TC-019 | Pass | Leaving last name empty displayed last-name validation and prevented advancing from the checkout information page. | [Screenshot](../evidence/TC-019-R03-last-name-required.png) |
+| TC-020 | Pass | Leaving postal code empty displayed postal-code validation and prevented advancing from the checkout information page. | [Screenshot](../evidence/TC-020-R03-postal-code-required.png) |
