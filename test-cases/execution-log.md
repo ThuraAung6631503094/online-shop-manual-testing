@@ -50,3 +50,14 @@ Account: standard_user
 | TC-005 | Pass | With username empty and password entered, clicking Login displayed “Username is required.” | [missing-username](../evidence/TC-005-R02-missing-username.png) |
 | TC-006 | Pass | With standard_user entered and password empty, clicking Login displayed “Password is required.” | [missing-password](../evidence/TC-006-R02-missing-password.png) |
 | TC-007 | Pass | Login as locked_out_user was rejected with “Sorry, this user has been locked out.” | [locked-user](../evidence/TC-007-R02-locked-user.png) |
+
+## R03 — Testing by Thura Aung
+
+Date: 2026-10-10
+
+| Case | Status | Actual result | Evidence |
+| --- | --- | --- | --- |
+| TC-008 | Pass | Backpack name, description and price matched between the catalogue and product details. Back to products returned to the Products page. | [Catalogue](../evidence/TC-008-R03-catalogue.png), [Details](../evidence/TC-008-R03-product-details.png) |
+| TC-009 | Pass | Selected Price (low to high) and verified all product prices were ordered from smallest to largest. | [price-low-to-high](../evidence/TC-009-R03-price-low-to-high.png) |
+| TC-010 | Pass | Selected Price (high to low) and verified all product prices were ordered from largest to smallest. | [price-high-to-low](../evidence/TC-010-R03-price-high-to-low.png) |
+| TC-011 | Pass | Selected Name (A to Z) and verified all product names were in alphabetical order. | [name-a-to-z](../evidence/TC-011-R03-name-a-to-z.png) |
